@@ -74,7 +74,7 @@
 			org/w3c/dom/ElementTraversal ] -->
 		<dom4j.dom4j.version>1.6.1</dom4j.dom4j.version>
 		<junit.junit.version>4.12</junit.junit.version>
-		<org.mockito.mockito-all.version>1.10.8</org.mockito.mockito-all.version>
+		<org.mockito.mockito-all.version>1.10.19</org.mockito.mockito-all.version>
 		<org.powermock.powermock-module-junit4.version>1.6.1</org.powermock.powermock-module-junit4.version>
 		<org.powermock.powermock-api-mockito.version>1.6.1</org.powermock.powermock-api-mockito.version>
 		<concurrent.concurrent.version>1.3.4</concurrent.concurrent.version>
