@@ -130,7 +130,7 @@
 		<xalan.serializer.version>2.7.2</xalan.serializer.version>
 
 		<commons-codec.commons-codec.version>1.9</commons-codec.commons-codec.version>
-		<commons-collections.commons-collections.version>3.2.1</commons-collections.commons-collections.version>
+		<commons-collections.commons-collections.version>3.2.2</commons-collections.commons-collections.version>
 		<commons-discovery.commons-discovery.version>0.5</commons-discovery.commons-discovery.version>
 		<commons-io.commons-io.version>2.4</commons-io.commons-io.version>
 		<commons-httpclient.commons-httpclient.version>3.1</commons-httpclient.commons-httpclient.version>
