@@ -139,7 +139,7 @@
 		<commons-pool.commons-pool.version>1.6</commons-pool.commons-pool.version>
 		<commons-dbcp.commons-dbcp.version>1.4</commons-dbcp.commons-dbcp.version>
 		<commons-lang.commons-lang.version>2.6</commons-lang.commons-lang.version>
-		<commons-beanutils.commons-beanutils.version>1.9.2</commons-beanutils.commons-beanutils.version>
+		<commons-beanutils.commons-beanutils.version>1.9.4</commons-beanutils.commons-beanutils.version>
 		<commons-configuration.commons-configuration>1.10</commons-configuration.commons-configuration>
 
 		<spring.version>3.2.5.RELEASE</spring.version>
