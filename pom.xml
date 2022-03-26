@@ -109,8 +109,8 @@
 		<pt.ist.xml-mapping-compiler.version>0.1</pt.ist.xml-mapping-compiler.version>
 		<pt.ist.xslt-om.version>0.1.2</pt.ist.xslt-om.version>
 
-		<log4j.log4j.version>1.2.17</log4j.log4j.version>
-		<log4j.apache-log4j-extras.version>1.2.17</log4j.apache-log4j-extras.version>
+		<log4j.log4j.version>2.17.2</log4j.log4j.version>
+		<log4j.apache-log4j-extras.version>2.17.2</log4j.apache-log4j-extras.version>
 
 		<org.apache.derby.derby.version>10.10.2.0</org.apache.derby.derby.version>
 		<org.apache.commons.commons-compress.version>1.21</org.apache.commons.commons-compress.version>
