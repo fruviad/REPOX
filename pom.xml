@@ -147,7 +147,7 @@
 		<org.springframework.spring-beans.version>${spring.version}</org.springframework.spring-beans.version>
 		<org.springframework.spring-context.version>${spring.version}</org.springframework.spring-context.version>
 		<org.springframework.spring-core.version>${spring.version}</org.springframework.spring-core.version>
-		<org.springframework.spring-jdbc.version>${spring.version}</org.springframework.spring-jdbc.version>
+		<org.springframework.spring-jdbc.version>5.3.17</org.springframework.spring-jdbc.version>
 		<org.springframework.spring-web.version>${spring.version}</org.springframework.spring-web.version>
 		<org.springframework.spring-webmvc.version>${spring.version}</org.springframework.spring-webmvc.version>
 		<org.springframework.spring-context-support.version>${spring.version}</org.springframework.spring-context-support.version>
