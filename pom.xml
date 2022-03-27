@@ -135,7 +135,7 @@
 		<commons-io.commons-io.version>2.11.0</commons-io.commons-io.version>
 		<commons-httpclient.commons-httpclient.version>3.1</commons-httpclient.commons-httpclient.version>
 		<commons-logging.commons-logging.version>1.2</commons-logging.commons-logging.version>
-		<commons-net.commons-net.version>3.3</commons-net.commons-net.version>
+		<commons-net.commons-net.version>3.8.0</commons-net.commons-net.version>
 		<commons-pool.commons-pool.version>1.6</commons-pool.commons-pool.version>
 		<commons-dbcp.commons-dbcp.version>1.4</commons-dbcp.commons-dbcp.version>
 		<commons-lang.commons-lang.version>2.6</commons-lang.commons-lang.version>
