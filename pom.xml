@@ -144,7 +144,7 @@
 
 		<spring.version>3.2.5.RELEASE</spring.version>
 		<org.springframework.spring-aop.version>${spring.version}</org.springframework.spring-aop.version>
-		<org.springframework.spring-beans.version>${spring.version}</org.springframework.spring-beans.version>
+		<org.springframework.spring-beans.version>5.3.17</org.springframework.spring-beans.version>
 		<org.springframework.spring-context.version>${spring.version}</org.springframework.spring-context.version>
 		<org.springframework.spring-core.version>${spring.version}</org.springframework.spring-core.version>
 		<org.springframework.spring-jdbc.version>5.3.17</org.springframework.spring-jdbc.version>
