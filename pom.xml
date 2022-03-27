@@ -173,7 +173,7 @@
 
 		<!-- Plugin Versions -->
 		<org.apache.maven.plugins.maven-release-plugin.version>2.5.1</org.apache.maven.plugins.maven-release-plugin.version>
-		<org.apache.maven.plugins.maven-surefire-plugin.version>2.17</org.apache.maven.plugins.maven-surefire-plugin.version>
+		<org.apache.maven.plugins.maven-surefire-plugin.version>2.22.2</org.apache.maven.plugins.maven-surefire-plugin.version>
 		<org.apache.maven.plugins.maven-compiler-plugin.version>3.1</org.apache.maven.plugins.maven-compiler-plugin.version>
 		<org.apache.maven.plugins.maven-war-plugin.version>2.4</org.apache.maven.plugins.maven-war-plugin.version>
 		<org.apache.maven.plugins.maven-dependency-plugin.version>2.9</org.apache.maven.plugins.maven-dependency-plugin.version>
