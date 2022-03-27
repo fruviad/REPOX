@@ -90,7 +90,7 @@
 		<org.mortbay.jetty.servlet-api-2.5.version>6.1.14</org.mortbay.jetty.servlet-api-2.5.version>
 		<net.sf.saxon.saxon-dom.version>8.7</net.sf.saxon.saxon-dom.version>
 		<xerces.xercesImpl.version>2.12.2</xerces.xercesImpl.version>
-		<net.sourceforge.stripes.stripes.version>1.5.8</net.sourceforge.stripes.stripes.version>
+		<net.sourceforge.stripes.stripes.version>1.6.0</net.sourceforge.stripes.stripes.version>
 		<c3p0.c3p0.version>0.9.1.2</c3p0.c3p0.version>
 		<!-- <org.slf4j.slf4j-log4j12.version>1.7.7</org.slf4j.slf4j-log4j12.version> -->
 		<gxt.gxt.version>2.2.5</gxt.gxt.version>
