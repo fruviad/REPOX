@@ -70,7 +70,7 @@
 		<eu.europeana.definitions.version>1.01</eu.europeana.definitions.version>
 		<postgresql.postgresql.version>9.1-901-1.jdbc4</postgresql.postgresql.version>
 		<mysql.mysql-connector-java.version>8.0.28</mysql.mysql-connector-java.version>
-		<xml-apis.xml-apis.version>1.4.01</xml-apis.xml-apis.version> <!-- Need this version or else repo-gui fails with AppEngine Error [ java.lang.NoClassDefFoundError. 
+		<xml-apis.xml-apis.version>2.0.2</xml-apis.xml-apis.version> <!-- Need this version or else repo-gui fails with AppEngine Error [ java.lang.NoClassDefFoundError. 
 			org/w3c/dom/ElementTraversal ] -->
 		<dom4j.dom4j.version>2.1.3</dom4j.dom4j.version>
 		<junit.junit.version>4.13.2</junit.junit.version>
@@ -90,7 +90,7 @@
 		<org.mortbay.jetty.servlet-api-2.5.version>6.1.14</org.mortbay.jetty.servlet-api-2.5.version>
 		<net.sf.saxon.saxon-dom.version>8.7</net.sf.saxon.saxon-dom.version>
 		<xerces.xercesImpl.version>2.12.2</xerces.xercesImpl.version>
-		<net.sourceforge.stripes.stripes.version>1.5.8</net.sourceforge.stripes.stripes.version>
+		<net.sourceforge.stripes.stripes.version>1.6.0</net.sourceforge.stripes.stripes.version>
 		<c3p0.c3p0.version>0.9.1.2</c3p0.c3p0.version>
 		<!-- <org.slf4j.slf4j-log4j12.version>1.7.7</org.slf4j.slf4j-log4j12.version> -->
 		<gxt.gxt.version>2.2.5</gxt.gxt.version>
@@ -101,7 +101,7 @@
 		<com.google.gwt.gwt-servlet.version>2.9.0</com.google.gwt.gwt-servlet.version>
 		<com.novell.ldap.jldap.version>2009-10-07</com.novell.ldap.jldap.version>
 		<com.bradrydzewski.gwt-cal.version>0.9.3.1</com.bradrydzewski.gwt-cal.version>
-		<com.allen-sauer.gwt.dnd.gwt-dnd.version>3.3.1</com.allen-sauer.gwt.dnd.gwt-dnd.version>
+		<com.allen-sauer.gwt.dnd.gwt-dnd.version>3.3.4</com.allen-sauer.gwt.dnd.gwt-dnd.version>
 		<com.ibm.icu.icu4j.version>53.1</com.ibm.icu.icu4j.version>
 
 		<pt.ist.mdr-mapping-ui-svg.version>0.1.4</pt.ist.mdr-mapping-ui-svg.version>
@@ -135,7 +135,7 @@
 		<commons-io.commons-io.version>2.11.0</commons-io.commons-io.version>
 		<commons-httpclient.commons-httpclient.version>3.1</commons-httpclient.commons-httpclient.version>
 		<commons-logging.commons-logging.version>1.2</commons-logging.commons-logging.version>
-		<commons-net.commons-net.version>3.3</commons-net.commons-net.version>
+		<commons-net.commons-net.version>3.8.0</commons-net.commons-net.version>
 		<commons-pool.commons-pool.version>1.6</commons-pool.commons-pool.version>
 		<commons-dbcp.commons-dbcp.version>1.4</commons-dbcp.commons-dbcp.version>
 		<commons-lang.commons-lang.version>2.6</commons-lang.commons-lang.version>
@@ -144,17 +144,17 @@
 
 		<spring.version>3.2.5.RELEASE</spring.version>
 		<org.springframework.spring-aop.version>${spring.version}</org.springframework.spring-aop.version>
-		<org.springframework.spring-beans.version>${spring.version}</org.springframework.spring-beans.version>
+		<org.springframework.spring-beans.version>5.3.17</org.springframework.spring-beans.version>
 		<org.springframework.spring-context.version>${spring.version}</org.springframework.spring-context.version>
-		<org.springframework.spring-core.version>${spring.version}</org.springframework.spring-core.version>
+		<org.springframework.spring-core.version>5.3.17</org.springframework.spring-core.version>
 		<org.springframework.spring-jdbc.version>5.3.17</org.springframework.spring-jdbc.version>
 		<org.springframework.spring-web.version>5.3.17</org.springframework.spring-web.version>
 		<org.springframework.spring-webmvc.version>5.3.17</org.springframework.spring-webmvc.version>
 		<org.springframework.spring-context-support.version>5.3.17</org.springframework.spring-context-support.version>
 		<org.springframework.spring-orm.version>5.3.17</org.springframework.spring-orm.version>
 		<org.springframework.security.spring-security-acl.version>5.6.2</org.springframework.security.spring-security-acl.version>
-		<org.springframework.security.spring-security-core.version>4.2.17.RELEASE</org.springframework.security.spring-security-core.version>
 		<org.springframework.security.spring-security-taglibs.version>5.6.2</org.springframework.security.spring-security-taglibs.version>
+		<org.springframework.security.spring-security-core.version>5.6.2</org.springframework.security.spring-security-core.version>
 		<org.springframework.security.spring-security-config.version>5.6.2</org.springframework.security.spring-security-config.version>
 		<org.springframework.spring-test.version>5.3.17</org.springframework.spring-test.version>
 		<org.springmodules.spring-modules-validation.version>0.8a</org.springmodules.spring-modules-validation.version>
