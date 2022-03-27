@@ -101,7 +101,7 @@
 		<com.google.gwt.gwt-servlet.version>2.9.0</com.google.gwt.gwt-servlet.version>
 		<com.novell.ldap.jldap.version>2009-10-07</com.novell.ldap.jldap.version>
 		<com.bradrydzewski.gwt-cal.version>0.9.3.1</com.bradrydzewski.gwt-cal.version>
-		<com.allen-sauer.gwt.dnd.gwt-dnd.version>3.3.1</com.allen-sauer.gwt.dnd.gwt-dnd.version>
+		<com.allen-sauer.gwt.dnd.gwt-dnd.version>3.3.4</com.allen-sauer.gwt.dnd.gwt-dnd.version>
 		<com.ibm.icu.icu4j.version>53.1</com.ibm.icu.icu4j.version>
 
 		<pt.ist.mdr-mapping-ui-svg.version>0.1.4</pt.ist.mdr-mapping-ui-svg.version>
