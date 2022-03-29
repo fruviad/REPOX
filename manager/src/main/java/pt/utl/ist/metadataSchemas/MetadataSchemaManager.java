@@ -1,6 +1,6 @@
 package pt.utl.ist.metadataSchemas;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
 

@@ -4,7 +4,7 @@
  */
 package pt.utl.ist.marc.xml;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import pt.utl.ist.marc.MarcRecord;

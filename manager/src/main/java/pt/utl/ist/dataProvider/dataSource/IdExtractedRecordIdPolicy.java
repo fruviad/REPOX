@@ -1,6 +1,6 @@
 package pt.utl.ist.dataProvider.dataSource;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.dom4j.XPath;

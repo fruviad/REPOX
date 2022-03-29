@@ -2,7 +2,7 @@ package pt.utl.ist.database;
 
 import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.commons.dbcp.BasicDataSourceFactory;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.accessPoint.AccessPoint;
 import pt.utl.ist.configuration.RepoxConfiguration;

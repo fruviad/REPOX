@@ -4,7 +4,7 @@
  */
 package pt.utl.ist.marc.iso2709;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.marc.iso2709.BatchInfo.CharSet;
 import pt.utl.ist.marc.iso2709.BatchInfo.Sgb;

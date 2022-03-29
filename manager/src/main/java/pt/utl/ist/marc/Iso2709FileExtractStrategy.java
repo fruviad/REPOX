@@ -4,7 +4,7 @@
  */
 package pt.utl.ist.marc;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.characters.RecordCharactersConverter;
 import pt.utl.ist.characters.UnderCode32Remover;

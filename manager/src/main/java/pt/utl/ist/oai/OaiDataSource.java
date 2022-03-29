@@ -3,7 +3,7 @@ package pt.utl.ist.oai;
 import com.wordnik.swagger.annotations.ApiModel;
 import com.wordnik.swagger.annotations.ApiModelProperty;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.oclc.oai.harvester.verb.ListIdentifiers;

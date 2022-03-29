@@ -32,7 +32,7 @@ import pt.utl.ist.util.exceptions.ObjectNotFoundException;
 import pt.utl.ist.util.shared.ProjectType;
 
 public class RestServlet extends HttpServlet {
-    private static org.apache.log4j.Logger log                  = org.apache.log4j.Logger.getLogger(RestServlet.class);
+    private static org.apache.logging.log4j.Logger log                  = org.apache.logging.log4j.Logger.getLogger(RestServlet.class);
     public static final String             BASE_URI             = "/rest";
     public static final String             RECORDS_URL_NAME     = "records";
     public static final String             AGGREGATORS_URL_NAME = "aggregators";

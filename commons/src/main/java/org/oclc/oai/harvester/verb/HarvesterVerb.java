@@ -34,7 +34,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 //import org.apache.xml.serialize.OutputFormat;
 //import org.apache.xml.serialize.XMLSerializer;
 import org.apache.xpath.XPathAPI;

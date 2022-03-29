@@ -6,7 +6,7 @@ package harvesterUI.server.util;
  * Date: 15/03/13
  * Time: 14:09
  */
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.PropertyConfigurator;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.http.HttpServlet;

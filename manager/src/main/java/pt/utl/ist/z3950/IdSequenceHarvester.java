@@ -1,6 +1,6 @@
 package pt.utl.ist.z3950;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.jzkit.search.util.RecordModel.InformationFragment;
 import org.jzkit.search.util.ResultSet.IRResultSet;
 

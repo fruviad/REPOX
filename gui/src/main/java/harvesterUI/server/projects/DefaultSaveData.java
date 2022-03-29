@@ -15,7 +15,7 @@ import harvesterUI.shared.externalServices.ExternalServiceUI;
 import harvesterUI.shared.externalServices.ServiceParameterUI;
 import harvesterUI.shared.mdr.TransformationUI;
 import harvesterUI.shared.servletResponseStates.ResponseState;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import pt.utl.ist.configuration.ConfigSingleton;
 import pt.utl.ist.configuration.DefaultRepoxManager;

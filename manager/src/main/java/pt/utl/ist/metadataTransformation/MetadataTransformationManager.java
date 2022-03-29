@@ -18,7 +18,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
 
 import org.apache.commons.io.FilenameUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;

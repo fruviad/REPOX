@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
 import pt.utl.ist.configuration.DefaultRepoxContextUtil;

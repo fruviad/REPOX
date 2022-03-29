@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
 import pt.utl.ist.dataProvider.dataSource.FileRetrieveStrategy;

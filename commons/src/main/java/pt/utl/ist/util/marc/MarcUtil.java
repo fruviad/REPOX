@@ -19,7 +19,7 @@ import pt.utl.ist.marc.MarcSubfield;
  * @author Nuno Freire
  */
 public class MarcUtil {
-    private static org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(MarcUtil.class);
+    private static org.apache.logging.log4j.Logger log = org.apache.logging.log4j.Logger.getLogger(MarcUtil.class);
 
     /** Creates a new instance of Utility */
     public MarcUtil() {

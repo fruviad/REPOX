@@ -22,7 +22,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 
 import pt.utl.ist.configuration.ConfigSingleton;

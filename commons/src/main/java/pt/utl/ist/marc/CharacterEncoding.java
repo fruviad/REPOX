@@ -1,6 +1,6 @@
 package pt.utl.ist.marc;
 
-import javax.xml.bind.annotation.XmlEnum;
+import jakarta.xml.bind.annotation.XmlEnum;
 
 /**
  */

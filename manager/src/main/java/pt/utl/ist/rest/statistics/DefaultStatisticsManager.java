@@ -1,7 +1,7 @@
 package pt.utl.ist.rest.statistics;
 
 import org.apache.commons.lang.time.DateFormatUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;

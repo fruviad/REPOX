@@ -6,7 +6,7 @@
 
 package pt.utl.ist.marc.xml;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

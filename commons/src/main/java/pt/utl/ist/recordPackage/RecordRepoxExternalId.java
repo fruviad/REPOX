@@ -4,7 +4,7 @@
  */
 package pt.utl.ist.recordPackage;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 

@@ -1,6 +1,6 @@
 package pt.utl.ist.accessPoint.manager;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 
 import pt.utl.ist.accessPoint.AccessPoint;

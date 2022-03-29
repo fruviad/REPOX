@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.sql.SQLException;
 import java.text.ParseException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 
 import pt.utl.ist.accessPoint.manager.AccessPointManagerFactory;

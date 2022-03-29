@@ -1,6 +1,6 @@
 package pt.utl.ist.util;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.reports.LogUtil;
 import pt.utl.ist.util.date.DateUtil;

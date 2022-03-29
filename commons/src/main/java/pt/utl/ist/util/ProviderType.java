@@ -21,7 +21,7 @@
 
 package pt.utl.ist.util;
 
-import javax.xml.bind.annotation.XmlEnum;
+import jakarta.xml.bind.annotation.XmlEnum;
 
 /**
  * Data provider types.

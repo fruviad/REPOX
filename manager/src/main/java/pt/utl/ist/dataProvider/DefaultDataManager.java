@@ -1,7 +1,7 @@
 package pt.utl.ist.dataProvider;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;

@@ -1,7 +1,7 @@
 /* IsoVariant.java - created on Nov 7, 2014, Copyright (c) 2011 The European Library, all rights reserved */
 package pt.utl.ist.marc.iso2709.shared;
 
-import javax.xml.bind.annotation.XmlEnum;
+import jakarta.xml.bind.annotation.XmlEnum;
 
 import com.google.gwt.user.client.rpc.IsSerializable;
 

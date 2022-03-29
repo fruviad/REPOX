@@ -4,7 +4,7 @@
  */
 package pt.utl.ist.marc;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.Element;
 import pt.utl.ist.marc.xml.MarcXChangeDom4jBuilder;
 import pt.utl.ist.recordPackage.RecordRepox;

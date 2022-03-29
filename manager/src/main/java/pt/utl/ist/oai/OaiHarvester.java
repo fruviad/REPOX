@@ -1,7 +1,7 @@
 package pt.utl.ist.oai;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.oclc.oai.harvester.verb.ListRecords;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
