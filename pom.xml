@@ -102,7 +102,7 @@
 		<com.novell.ldap.jldap.version>2009-10-07</com.novell.ldap.jldap.version>
 		<com.bradrydzewski.gwt-cal.version>0.9.3.1</com.bradrydzewski.gwt-cal.version>
 		<com.allen-sauer.gwt.dnd.gwt-dnd.version>3.3.4</com.allen-sauer.gwt.dnd.gwt-dnd.version>
-		<com.ibm.icu.icu4j.version>70.1</com.ibm.icu.icu4j.version>
+		<com.ibm.icu.icu4j.version>71.1</com.ibm.icu.icu4j.version>
 
 		<pt.ist.mdr-mapping-ui-svg.version>0.1.4</pt.ist.mdr-mapping-ui-svg.version>
 		<pt.ist.mdr-system.version>0.1.1</pt.ist.mdr-system.version>
