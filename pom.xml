@@ -162,7 +162,7 @@
 		<org.hibernate.hibernate-entitymanager.version>5.6.7.Final</org.hibernate.hibernate-entitymanager.version>
 		<org.hibernate.hibernate-annotations.version>3.5.6-Final</org.hibernate.hibernate-annotations.version>
 		<org.hibernate.hibernate-validator.version>7.0.4.Final</org.hibernate.hibernate-validator.version>
-		<org.hibernate.hibernate-core.version>5.6.7.Final</org.hibernate.hibernate-core.version>
+		<org.hibernate.hibernate-core.version>5.6.8.Final</org.hibernate.hibernate-core.version>
 
 		<com.google.code.gson.gson.version>2.9.0</com.google.code.gson.gson.version>
 
