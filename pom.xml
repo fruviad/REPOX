@@ -146,7 +146,7 @@
 		<org.springframework.spring-aop.version>5.3.18</org.springframework.spring-aop.version>
 		<org.springframework.spring-beans.version>5.3.18</org.springframework.spring-beans.version>
 		<org.springframework.spring-core.version>5.3.18</org.springframework.spring-core.version>
-		<org.springframework.spring-context.version>5.3.18</org.springframework.spring-context.version>
+		<org.springframework.spring-context.version>5.3.19</org.springframework.spring-context.version>
 		<org.springframework.spring-jdbc.version>5.3.18</org.springframework.spring-jdbc.version>
 		<org.springframework.spring-web.version>5.3.18</org.springframework.spring-web.version>
 		<org.springframework.spring-webmvc.version>5.3.18</org.springframework.spring-webmvc.version>
