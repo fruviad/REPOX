@@ -154,7 +154,7 @@
 		<org.springframework.spring-orm.version>5.3.19</org.springframework.spring-orm.version>
 		<org.springframework.security.spring-security-acl.version>5.6.2</org.springframework.security.spring-security-acl.version>
 		<org.springframework.security.spring-security-taglibs.version>5.7.1</org.springframework.security.spring-security-taglibs.version>
-		<org.springframework.security.spring-security-core.version>5.6.2</org.springframework.security.spring-security-core.version>
+		<org.springframework.security.spring-security-core.version>5.7.1</org.springframework.security.spring-security-core.version>
 		<org.springframework.security.spring-security-config.version>5.7.1</org.springframework.security.spring-security-config.version>
 		<org.springframework.spring-test.version>5.3.19</org.springframework.spring-test.version>
 		<org.springmodules.spring-modules-validation.version>0.8a</org.springmodules.spring-modules-validation.version>
