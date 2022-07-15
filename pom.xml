@@ -97,7 +97,7 @@
 		<org.mindrot.jbcrypt.version>0.4</org.mindrot.jbcrypt.version>
 		<rome.rome.version>1.0</rome.rome.version>
 
-		<com.google.gwt.gwt-user.version>2.9.0</com.google.gwt.gwt-user.version>
+		<com.google.gwt.gwt-user.version>2.10.0</com.google.gwt.gwt-user.version>
 		<com.google.gwt.gwt-servlet.version>2.9.0</com.google.gwt.gwt-servlet.version>
 		<com.novell.ldap.jldap.version>2009-10-07</com.novell.ldap.jldap.version>
 		<com.bradrydzewski.gwt-cal.version>0.9.3.1</com.bradrydzewski.gwt-cal.version>
@@ -150,7 +150,7 @@
 		<org.springframework.spring-jdbc.version>5.3.20</org.springframework.spring-jdbc.version>
 		<org.springframework.spring-web.version>5.3.20</org.springframework.spring-web.version>
 		<org.springframework.spring-webmvc.version>5.3.20</org.springframework.spring-webmvc.version>
-		<org.springframework.spring-context-support.version>5.3.20</org.springframework.spring-context-support.version>
+		<org.springframework.spring-context-support.version>5.3.22</org.springframework.spring-context-support.version>
 		<org.springframework.spring-orm.version>5.3.20</org.springframework.spring-orm.version>
 		<org.springframework.security.spring-security-acl.version>5.6.2</org.springframework.security.spring-security-acl.version>
 		<org.springframework.security.spring-security-taglibs.version>5.7.1</org.springframework.security.spring-security-taglibs.version>
