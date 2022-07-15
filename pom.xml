@@ -150,7 +150,7 @@
 		<org.springframework.spring-jdbc.version>5.3.20</org.springframework.spring-jdbc.version>
 		<org.springframework.spring-web.version>5.3.20</org.springframework.spring-web.version>
 		<org.springframework.spring-webmvc.version>5.3.20</org.springframework.spring-webmvc.version>
-		<org.springframework.spring-context-support.version>5.3.20</org.springframework.spring-context-support.version>
+		<org.springframework.spring-context-support.version>5.3.22</org.springframework.spring-context-support.version>
 		<org.springframework.spring-orm.version>5.3.20</org.springframework.spring-orm.version>
 		<org.springframework.security.spring-security-acl.version>5.6.2</org.springframework.security.spring-security-acl.version>
 		<org.springframework.security.spring-security-taglibs.version>5.7.1</org.springframework.security.spring-security-taglibs.version>
@@ -179,7 +179,7 @@
 		<org.apache.maven.plugins.maven-war-plugin.version>3.3.2</org.apache.maven.plugins.maven-war-plugin.version>
 		<org.apache.maven.plugins.maven-dependency-plugin.version>3.3.0</org.apache.maven.plugins.maven-dependency-plugin.version>
 		<org.apache.maven.plugins.maven-assembly-plugin.version>3.3.0</org.apache.maven.plugins.maven-assembly-plugin.version>
-		<org.codehaus.mojo.gwt-maven-plugin.version>2.9.0</org.codehaus.mojo.gwt-maven-plugin.version>
+		<org.codehaus.mojo.gwt-maven-plugin.version>2.10.0</org.codehaus.mojo.gwt-maven-plugin.version>
 		<org.apache.maven.plugins.maven-resources-plugin.version>3.2.0</org.apache.maven.plugins.maven-resources-plugin.version>
 		<org.apache.maven.plugins.maven-clean-plugin.version>3.2.0</org.apache.maven.plugins.maven-clean-plugin.version>
 	</properties>
