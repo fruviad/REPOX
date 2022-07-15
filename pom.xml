@@ -114,7 +114,7 @@
 
 		<org.apache.derby.derby.version>10.16.1.1</org.apache.derby.derby.version>
 		<org.apache.commons.commons-compress.version>1.21</org.apache.commons.commons-compress.version>
-		<org.apache.derby.derbytools.version>10.15.2.0</org.apache.derby.derbytools.version>
+		<org.apache.derby.derbytools.version>10.16.1.1</org.apache.derby.derbytools.version>
 
 		<javax.mail.mail.version>1.4.7</javax.mail.mail.version>
 		<javax.activation.activation.version>1.1.1</javax.activation.activation.version>
