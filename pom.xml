@@ -179,7 +179,7 @@
 		<org.apache.maven.plugins.maven-compiler-plugin.version>3.10.1</org.apache.maven.plugins.maven-compiler-plugin.version>
 		<org.apache.maven.plugins.maven-war-plugin.version>3.3.2</org.apache.maven.plugins.maven-war-plugin.version>
 		<org.apache.maven.plugins.maven-dependency-plugin.version>3.3.0</org.apache.maven.plugins.maven-dependency-plugin.version>
-		<org.apache.maven.plugins.maven-assembly-plugin.version>3.4.1</org.apache.maven.plugins.maven-assembly-plugin.version>
+		<org.apache.maven.plugins.maven-assembly-plugin.version>3.4.2</org.apache.maven.plugins.maven-assembly-plugin.version>
 		<org.codehaus.mojo.gwt-maven-plugin.version>2.10.0</org.codehaus.mojo.gwt-maven-plugin.version>
 		<org.apache.maven.plugins.maven-resources-plugin.version>3.2.0</org.apache.maven.plugins.maven-resources-plugin.version>
 		<org.apache.maven.plugins.maven-clean-plugin.version>3.2.0</org.apache.maven.plugins.maven-clean-plugin.version>
