@@ -1,6 +1,7 @@
 package pt.utl.ist.util;
 
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -24,7 +25,7 @@ import java.nio.charset.Charset;
 /**
  */
 public class XmlUtil {
-    private static final Logger log               = Logger.getLogger(XmlUtil.class);
+    private static final Logger log               = LogManager.getLogger(XmlUtil.class);
     private static final String XML_FILE_ENCODING = "UTF-8";
 
     /**

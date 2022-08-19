@@ -30,6 +30,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 import org.apache.commons.compress.archivers.ArchiveException;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -68,7 +69,7 @@ import com.wordnik.swagger.annotations.ApiModelProperty;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "A DirectoryDatasource")
 public class DirectoryImporterDataSource extends DataSource {
-  private static final Logger log = Logger.getLogger(DirectoryImporterDataSource.class);
+  private static final Logger log = LogManager.getLogger(DirectoryImporterDataSource.class);
 
   @XmlElement
   @ApiModelProperty(required = true)

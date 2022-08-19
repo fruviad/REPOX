@@ -1,5 +1,6 @@
 package pt.utl.ist.dataProvider.dataSource;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -29,7 +30,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "An IdExtractedRecordIdPolicy")
 public class IdExtractedRecordIdPolicy implements RecordIdPolicy {
-    private static final Logger log = Logger.getLogger(IdExtractedRecordIdPolicy.class);
+    private static final Logger log = LogManager.getLogger(IdExtractedRecordIdPolicy.class);
     public static final String IDEXTRACTED = "IdExtracted";
 
     @XmlElement

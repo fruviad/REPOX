@@ -29,7 +29,7 @@ import java.util.Properties;
  * NodeRecordFactory converts native XML "items" to "record" Strings.
  */
 public class NodeRecordFactory extends RecordFactory {
-    //     private static Logger logger = Logger.getLogger(NodeRecordFactory.class);
+    //     private static Logger logger = LogManager.getLogger(NodeRecordFactory.class);
     //     static {
     // 	BasicConfigurator.configure();
     //     }

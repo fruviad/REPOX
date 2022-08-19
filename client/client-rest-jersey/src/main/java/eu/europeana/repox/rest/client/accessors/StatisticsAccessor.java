@@ -24,8 +24,11 @@ import javax.ws.rs.core.Response;
 
 import org.glassfish.jersey.client.JerseyClientBuilder;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.LogManager;
+//import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+
+
 import org.theeuropeanlibrary.repox.rest.pathOptions.Result;
 import org.theeuropeanlibrary.repox.rest.pathOptions.StatisticsOptionListContainer;
 
@@ -38,7 +41,8 @@ import org.theeuropeanlibrary.repox.rest.pathOptions.StatisticsOptionListContain
 public class StatisticsAccessor {
   private URL restUrl;
   private Client client = JerseyClientBuilder.newClient();
-  private static final Logger LOGGER = LoggerFactory.getLogger(StatisticsAccessor.class);
+//  private static final Logger LOGGER = LoggerFactory.getLogger(StatisticsAccessor.class);
+  private static final Logger LOGGER = LogManager.getLogger(StatisticsAccessor.class);
 
   /**
    * Setup StatisticsAccessor with the target Url, username and password

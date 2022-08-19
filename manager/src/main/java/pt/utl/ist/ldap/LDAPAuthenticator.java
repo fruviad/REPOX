@@ -9,6 +9,7 @@ import javax.naming.directory.InitialDirContext;
 import javax.naming.directory.SearchControls;
 import javax.naming.directory.SearchResult;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -21,7 +22,7 @@ import pt.utl.ist.configuration.ConfigSingleton;
  */
 public class LDAPAuthenticator {
 
-  private static Logger logger = Logger.getLogger(LDAPAuthenticator.class);
+  private static Logger logger = LogManager.getLogger(LDAPAuthenticator.class);
 
 //  public static void main(String[] args) {
 //    String ldapURL = "ldaps://128.86.236.181:636";

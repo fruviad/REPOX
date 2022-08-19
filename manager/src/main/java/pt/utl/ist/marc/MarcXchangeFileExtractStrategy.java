@@ -4,6 +4,7 @@
  */
 package pt.utl.ist.marc;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Element;
 
@@ -30,7 +31,7 @@ public class MarcXchangeFileExtractStrategy implements FileExtractStrategy {
   public static final String OLDCLASS = "MarcXchangeFileExtract";
     //	MetadataFormat.MarcXchange;
 
-    private static final Logger log = Logger.getLogger(MarcXchangeFileExtractStrategy.class);
+    private static final Logger log = LogManager.getLogger(MarcXchangeFileExtractStrategy.class);
 
     @Override
     public void iterateRecords(RecordHandler recordHandler, DataSource dataSource, File file, CharacterEncoding characterEncoding, File logFile) {

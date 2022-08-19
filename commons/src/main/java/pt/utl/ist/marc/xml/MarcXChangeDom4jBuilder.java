@@ -6,6 +6,7 @@
 
 package pt.utl.ist.marc.xml;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.*;
 
@@ -23,7 +24,7 @@ import java.util.List;
  * @author Nuno Freire
  */
 public class MarcXChangeDom4jBuilder {
-    private static Logger log = Logger.getLogger(MarcXChangeDom4jBuilder.class);
+    private static Logger log = LogManager.getLogger(MarcXChangeDom4jBuilder.class);
 
     //    public static Document record2Dom(List recs){ 
     //        try {

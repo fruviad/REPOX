@@ -49,7 +49,7 @@ public class RecordStringHandler extends DefaultHandler {
     private int                  setSpecFlag    = 0;
     private StringBuffer         setSpec        = null;
 
-    //     private static Logger logger = Logger.getLogger(RecordStringHandler.class);
+    //     private static Logger logger = LogManager.getLogger(RecordStringHandler.class);
     //     static {
     //         BasicConfigurator.configure();
     //     }

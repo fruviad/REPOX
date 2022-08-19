@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -90,7 +90,7 @@ import pt.utl.ist.z3950.TimestampHarvester;
  * To change this template use File | Settings | File Templates.
  */
 public class DefaultWebServices implements WebServices {
-    private static final Logger log = Logger.getLogger(DefaultWebServices.class);
+    private static final Logger log = LogManager.getLogger(DefaultWebServices.class);
 
     private String              requestURI;
 

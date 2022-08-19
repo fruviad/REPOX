@@ -8,6 +8,7 @@ import java.io.OutputStream;
 import java.sql.SQLException;
 import java.text.ParseException;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 
@@ -34,7 +35,7 @@ import pt.utl.ist.util.exceptions.task.IllegalFileFormatException;
  * @since Oct 24, 2014
  */
 public class DefaultRepoxManager implements RepoxManager {
-    private static final Logger           log = Logger.getLogger(DefaultRepoxManager.class);
+    private static final Logger           log = LogManager.getLogger(DefaultRepoxManager.class);
 
     private DefaultRepoxConfiguration     configuration;
     private AccessPointsManager           accessPointsManager;

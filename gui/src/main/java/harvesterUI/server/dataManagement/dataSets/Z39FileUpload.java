@@ -5,6 +5,7 @@ import harvesterUI.server.util.Util;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.z3950.IdListHarvester;
@@ -25,7 +26,7 @@ import java.util.List;
  */
 public class Z39FileUpload extends HttpServlet {
 
-    private static Logger logger = Logger.getLogger(Z39FileUpload.class);
+    private static Logger logger = LogManager.getLogger(Z39FileUpload.class);
 
     static File tempFile = null;
     static boolean ignoreUploadFile = false;

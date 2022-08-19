@@ -1,5 +1,6 @@
 package pt.utl.ist.externalServices;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -15,7 +16,7 @@ import java.net.URL;
  * Created to REPOX. User: Edmundo Date: 27-12-2011 Time: 14:30
  */
 public class ExternalRestServiceThread extends Thread {
-    private static final Logger                       log                 = Logger.getLogger(ExternalRestServiceThread.class);
+    private static final Logger                       log                 = LogManager.getLogger(ExternalRestServiceThread.class);
 
     private ExternalRestServiceContainer              externalRestServiceContainer;
     private ExternalRestService                       externalRestService = null;

@@ -1,6 +1,7 @@
 package pt.utl.ist.statistics;
 
 import org.apache.commons.lang.time.DateFormatUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -29,7 +30,7 @@ import java.util.TreeMap;
 /**
  */
 public class DefaultStatisticsManager implements StatisticsManager {
-    private static final Logger log = Logger.getLogger(DefaultStatisticsManager.class);
+    private static final Logger log = LogManager.getLogger(DefaultStatisticsManager.class);
 
     private File                configurationFile;
 

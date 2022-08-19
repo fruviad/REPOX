@@ -1,5 +1,6 @@
 package pt.utl.ist.task;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -13,7 +14,7 @@ import pt.utl.ist.util.RunnableStoppable;
  *
  */
 public class IngestDataSource implements RunnableStoppable {
-    private static final Logger log = Logger.getLogger(IngestDataSource.class);
+    private static final Logger log = LogManager.getLogger(IngestDataSource.class);
     private DataSource          dataSource;
 
     private String              taskId;

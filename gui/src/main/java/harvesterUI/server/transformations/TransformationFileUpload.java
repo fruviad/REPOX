@@ -5,6 +5,7 @@ import harvesterUI.server.util.Util;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -26,7 +27,7 @@ import java.util.List;
  */
 public class TransformationFileUpload extends HttpServlet {
 
-    private static Logger logger = Logger.getLogger(TransformationFileUpload.class);
+    private static Logger logger = LogManager.getLogger(TransformationFileUpload.class);
 
     private static boolean copySuccessful;
 

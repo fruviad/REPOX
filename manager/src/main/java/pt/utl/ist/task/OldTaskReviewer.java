@@ -1,5 +1,6 @@
 package pt.utl.ist.task;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -22,7 +23,7 @@ import java.util.UUID;
  * Time: 17:56
  */
 public class OldTaskReviewer {
-    private static final Logger log         = Logger.getLogger(OldTaskReviewer.class);
+    private static final Logger log         = LogManager.getLogger(OldTaskReviewer.class);
     public static String        DATE_FORMAT = "yyyy-MM-dd HH:mm";
 
     /**

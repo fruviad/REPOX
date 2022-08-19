@@ -28,8 +28,10 @@ import javax.ws.rs.core.Response;
 
 import org.glassfish.jersey.client.JerseyClientBuilder;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.LogManager;
+//import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+
 import org.theeuropeanlibrary.repox.rest.pathOptions.DatasetOptionListContainer;
 import org.theeuropeanlibrary.repox.rest.pathOptions.ProviderOptionListContainer;
 import org.theeuropeanlibrary.repox.rest.pathOptions.Result;
@@ -58,7 +60,8 @@ import pt.utl.ist.util.exceptions.MissingArgumentsException;
 public class DatasetsAccessor {
   private URL restUrl;
   private Client client = JerseyClientBuilder.newClient();
-  private static final Logger LOGGER = LoggerFactory.getLogger(DatasetsAccessor.class);
+//  private static final Logger LOGGER = LoggerFactory.getLogger(DatasetsAccessor.class);
+  private static final Logger LOGGER = LogManager.getLogger(DatasetsAccessor.class);
 
   /**
    * Setup DatasetsAccessor with the target Url, username and password

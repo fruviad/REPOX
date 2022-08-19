@@ -1,5 +1,6 @@
 package pt.utl.ist.externalServices;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.util.StringUtil;
@@ -12,7 +13,7 @@ import java.net.URL;
  * Created to REPOX. User: Edmundo Date: 27-12-2011 Time: 14:30
  */
 public class ExternalNoMonitorServiceThread extends Thread {
-    private static final Logger      log                 = Logger.getLogger(ExternalNoMonitorServiceThread.class);
+    private static final Logger      log                 = LogManager.getLogger(ExternalNoMonitorServiceThread.class);
 
     private ExternalServiceNoMonitor externalRestService = null;
     private File                     logFile;

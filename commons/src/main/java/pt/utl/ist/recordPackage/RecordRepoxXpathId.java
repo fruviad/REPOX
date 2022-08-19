@@ -4,6 +4,7 @@
  */
 package pt.utl.ist.recordPackage;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -20,7 +21,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.TreeMap;
 
 public class RecordRepoxXpathId implements RecordRepox {
-    private static final Logger log       = Logger.getLogger(RecordRepoxXpathId.class);
+    private static final Logger log       = LogManager.getLogger(RecordRepoxXpathId.class);
 
     protected Element           dom;
     protected XPath             idXpath;

@@ -109,8 +109,8 @@
 		<pt.ist.xml-mapping-compiler.version>0.1</pt.ist.xml-mapping-compiler.version>
 		<pt.ist.xslt-om.version>0.1.2</pt.ist.xslt-om.version>
 
-		<log4j.log4j.version>2.17.2</log4j.log4j.version>
-		<log4j.apache-log4j-extras.version>2.17.2</log4j.apache-log4j-extras.version>
+		<log4j.log4j.version>2.18.0</log4j.log4j.version>
+		<log4j.apache-log4j-extras.version>2.18.0</log4j.apache-log4j-extras.version>
 
 		<org.apache.derby.derby.version>10.15.2.0</org.apache.derby.derby.version>
 		<org.apache.commons.commons-compress.version>1.21</org.apache.commons.commons-compress.version>
@@ -419,7 +419,7 @@
 				<version>${xml-apis.xml-apis.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>dom4j</groupId>
+				<groupId>org.dom4j</groupId>
 				<artifactId>dom4j</artifactId>
 				<version>${dom4j.dom4j.version}</version>
 			</dependency>
@@ -435,7 +435,7 @@
 				<version>${com.ibm.icu.icu4j.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>log4j</groupId>
+				<groupId>org.log4j</groupId>
 				<artifactId>log4j</artifactId>
 				<version>${log4j.log4j.version}</version>
 			</dependency>
@@ -831,6 +831,7 @@
 	</dependencyManagement>
 
 	<repositories>
+
 		<repository>
 			<id>artifactory.eanadev.org</id>
 			<name>artifactory.eanadev.org-releases</name>

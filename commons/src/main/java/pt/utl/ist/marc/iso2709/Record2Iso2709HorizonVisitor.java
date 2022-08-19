@@ -6,6 +6,7 @@
 
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.marc.MarcField;
@@ -22,7 +23,7 @@ import java.io.IOException;
  * @author Nuno Freire
  */
 public class Record2Iso2709HorizonVisitor {
-    private static final Logger log = Logger.getLogger(Record2Iso2709HorizonVisitor.class);
+    private static final Logger log = LogManager.getLogger(Record2Iso2709HorizonVisitor.class);
 
     /**
      * @param rec

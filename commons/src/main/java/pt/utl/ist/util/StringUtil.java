@@ -1,5 +1,6 @@
 package pt.utl.ist.util;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.reports.LogUtil;
@@ -15,7 +16,7 @@ import java.util.Date;
 /**
  */
 public class StringUtil {
-    private static final Logger  log                         = Logger.getLogger(StringUtil.class);
+    private static final Logger  log                     = LogManager.getLogger(StringUtil.class);
     private static final boolean LOG_TO_LOG4J                = true;
     private static final String  COLLECTION_SEPARATOR_STRING = " ";
 
@@ -118,7 +119,7 @@ public class StringUtil {
         //			String messageToLog = DateUtil.date2String(new Date(), TimeUtil.LONG_DATE_FORMAT_TIMEZONE)
         //									+ " " + clazz.getName() + " " + message;
         //			if(LOG_TO_LOG4J) {
-        //				Logger.getLogger(clazz).debug(messageToLog);
+        //				LogManager.getLogger(clazz).debug(messageToLog);
         //			}
         //			messageToLog = messageToLog + "\n";
         //			writer.write(messageToLog);
@@ -162,7 +163,7 @@ public class StringUtil {
         //			String messageToLog = DateUtil.date2String(new Date(), TimeUtil.LONG_DATE_FORMAT_TIMEZONE)
         //			+ " " + clazz.getName() + " " + message;
         //			if(LOG_TO_LOG4J) {
-        //				Logger.getLogger(clazz).debug(messageToLog);
+        //				LogManager.getLogger(clazz).debug(messageToLog);
         //			}
         //
         //			StringWriter sw = new StringWriter();

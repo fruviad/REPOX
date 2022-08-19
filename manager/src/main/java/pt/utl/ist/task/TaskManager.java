@@ -1,5 +1,6 @@
 package pt.utl.ist.task;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -31,7 +32,7 @@ import java.util.*;
 /**
  */
 public class TaskManager implements RunnableStoppable {
-  private static final Logger log = Logger.getLogger(TaskManager.class);
+  private static final Logger log = LogManager.getLogger(TaskManager.class);
   private static final int CYCLE_CHECK_TIME = 15 * 1000;
 
   private boolean stopExecution = false;

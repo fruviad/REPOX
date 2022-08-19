@@ -1,5 +1,6 @@
 package pt.utl.ist.externalServices;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
@@ -9,7 +10,7 @@ import java.util.List;
  * Created to REPOX. User: Edmundo Date: 12-12-2011 Time: 14:24
  */
 public class ServiceParameter {
-    private static final Logger log = Logger.getLogger(ServiceParameter.class);
+    private static final Logger log = LogManager.getLogger(ServiceParameter.class);
 
     private String              name;
     private String              type;

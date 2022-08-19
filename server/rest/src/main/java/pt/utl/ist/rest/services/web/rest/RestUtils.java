@@ -1,6 +1,6 @@
 package pt.utl.ist.rest.services.web.rest;
 
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 
@@ -26,7 +26,7 @@ import java.util.Map;
  * req
  */
 public class RestUtils {
-    private static final Logger log = Logger.getLogger(RestUtils.class);
+    private static final Logger log = LogManager.getLogger(RestUtils.class);
 
     /**
      * @param baseURI

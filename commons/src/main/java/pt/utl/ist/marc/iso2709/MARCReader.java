@@ -1,5 +1,6 @@
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.marc.MarcRecord;
@@ -61,7 +62,7 @@ import java.io.*;
  * @version 0.2
  */
 public class MARCReader {
-    private static final Logger log = Logger.getLogger(MARCReader.class);
+    private static final Logger log = LogManager.getLogger(MARCReader.class);
     /** MARCReader charset */
     protected String            charset;
     /** MARCReader rt */

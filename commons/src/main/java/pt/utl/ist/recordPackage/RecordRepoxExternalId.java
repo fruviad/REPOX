@@ -4,7 +4,9 @@
  */
 package pt.utl.ist.recordPackage;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 
@@ -16,7 +18,7 @@ import java.io.UnsupportedEncodingException;
 /**
  */
 public class RecordRepoxExternalId implements RecordRepox {
-    private static final Logger log              = Logger.getLogger(RecordRepoxExternalId.class);
+    private static final Logger log              = LogManager.getLogger(RecordRepoxExternalId.class);
     static final long           serialVersionUID = 1;
 
     protected Element           dom;

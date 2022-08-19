@@ -18,6 +18,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -33,7 +34,7 @@ import com.wordnik.swagger.annotations.ApiModelProperty;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "An HttpFileRetrieveStrategy")
 public class HttpFileRetrieveStrategy implements FileRetrieveStrategy {
-    private static final Logger log = Logger.getLogger(HttpFileRetrieveStrategy.class);
+    private static final Logger log = LogManager.getLogger(HttpFileRetrieveStrategy.class);
     public static final String HTTPFILERETRIEVESTRATEGY = "HttpFileRetrieveStrategy";
     public static final String OLDCLASS = "pt.utl.ist.repox.http.DataSourceHttp";
 

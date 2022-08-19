@@ -1,5 +1,6 @@
 package pt.utl.ist.accessPoint;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.recordPackage.RecordRepox;
@@ -14,7 +15,7 @@ import java.util.List;
  * @author Nuno Freire
  */
 public class RecordRepoxFullAccessPoint extends AccessPoint {
-    private static final Logger log = Logger.getLogger(RecordRepoxFullAccessPoint.class);
+    private static final Logger log = LogManager.getLogger(RecordRepoxFullAccessPoint.class);
 
     /**
      * Creates a new instance of this class.

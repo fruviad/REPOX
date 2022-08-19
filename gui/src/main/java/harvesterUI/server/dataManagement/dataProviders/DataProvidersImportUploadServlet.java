@@ -6,7 +6,7 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FileUtils;
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManagger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
 
@@ -28,7 +28,7 @@ import java.util.List;
  */
 public class DataProvidersImportUploadServlet extends HttpServlet {
 
-    private static Logger logger = Logger.getLogger(DataProvidersImportUploadServlet.class);
+    private static Logger logger = LogManager.getLogger(DataProvidersImportUploadServlet.class);
 
     public void doPost(HttpServletRequest request, HttpServletResponse response)  throws ServletException, IOException {
         ServletFileUpload upload = new ServletFileUpload(new DiskFileItemFactory());

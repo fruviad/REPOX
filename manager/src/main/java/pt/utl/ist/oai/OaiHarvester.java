@@ -1,6 +1,7 @@
 package pt.utl.ist.oai;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.oclc.oai.harvester.verb.ListRecords;
 import org.w3c.dom.Node;
@@ -24,7 +25,7 @@ import java.util.List;
 /**
  */
 public class OaiHarvester implements RunnableStoppable {
-    private static final Logger log                            = Logger.getLogger(OaiHarvester.class);
+    private static final Logger log                            = LogManager.getLogger(OaiHarvester.class);
     private static final int    SIZE_HTTP_PROTOCOL             = 7;                                   // http://
     private static final int    MAX_OAI_VERB_RETRIES           = 3;
     private static final String SERVERS_FILENAME               = "servers.txt";                       //tab separated file with the servers

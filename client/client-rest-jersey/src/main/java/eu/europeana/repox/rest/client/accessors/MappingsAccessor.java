@@ -30,8 +30,10 @@ import org.glassfish.jersey.media.multipart.BodyPart;
 import org.glassfish.jersey.media.multipart.MultiPart;
 import org.glassfish.jersey.media.multipart.MultiPartFeature;
 import org.glassfish.jersey.media.multipart.file.FileDataBodyPart;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.LogManager;
+//import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+
 import org.theeuropeanlibrary.repox.rest.pathOptions.MappingOptionListContainer;
 import org.theeuropeanlibrary.repox.rest.pathOptions.Result;
 
@@ -48,7 +50,8 @@ import pt.utl.ist.util.exceptions.MissingArgumentsException;
 public class MappingsAccessor {
   private URL restUrl;
   private Client client = JerseyClientBuilder.newClient();
-  private static final Logger LOGGER = LoggerFactory.getLogger(MappingsAccessor.class);
+//  private static final Logger LOGGER = LoggerFactory.getLogger(MappingsAccessor.class);
+  private static final Logger LOGGER = LogManager.getLogger(MappingsAccessor.class);
 
   /**
    * Setup MappingsAccessor with the target Url, username and password

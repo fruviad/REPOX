@@ -4,6 +4,7 @@
  */
 package pt.utl.ist.marc;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Element;
 import pt.utl.ist.marc.xml.MarcXChangeDom4jBuilder;
@@ -16,7 +17,7 @@ import java.util.HashSet;
 /**
  */
 public class RecordRepoxMarc implements RecordRepox, Serializable {
-    private static final Logger log              = Logger.getLogger(RecordRepoxMarc.class);
+    private static final Logger log              = LogManager.getLogger(RecordRepoxMarc.class);
     static final long           serialVersionUID = 1;
 
     protected MarcRecord            record;

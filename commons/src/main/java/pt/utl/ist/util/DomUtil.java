@@ -6,6 +6,7 @@
 
 package pt.utl.ist.util;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -26,7 +27,7 @@ import java.util.Map;
  * @author Nuno Freire
  */
 public class DomUtil {
-    private static Logger log = Logger.getLogger(DomUtil.class);
+    private static Logger log = LogManager.getLogger(DomUtil.class);
 
     /** Creates a new instance of DOMBuilder */
     public DomUtil() {

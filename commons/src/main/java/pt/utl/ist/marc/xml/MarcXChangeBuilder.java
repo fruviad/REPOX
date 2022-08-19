@@ -6,7 +6,9 @@
 
 package pt.utl.ist.marc.xml;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -20,7 +22,7 @@ import java.util.List;
  * @author Nuno Freire
  */
 public class MarcXChangeBuilder {
-    private static final Logger log = Logger.getLogger(MarcXChangeBuilder.class);
+    private static final Logger log = LogManager.getLogger(MarcXChangeBuilder.class);
 
     /** Creates a new instance of DOMBuilder */
     public MarcXChangeBuilder() {

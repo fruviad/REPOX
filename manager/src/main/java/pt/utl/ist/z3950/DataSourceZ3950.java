@@ -1,5 +1,6 @@
 package pt.utl.ist.z3950;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -36,7 +37,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "A z3950Dataset")
 public class DataSourceZ3950 extends DataSource {
-    private static final Logger log = Logger.getLogger(DataSourceZ3950.class);
+    private static final Logger log = LogManager.getLogger(DataSourceZ3950.class);
 
     private Harvester       harvestMethod;
 

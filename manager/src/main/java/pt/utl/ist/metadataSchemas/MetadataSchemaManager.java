@@ -1,5 +1,6 @@
 package pt.utl.ist.metadataSchemas;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
@@ -16,7 +17,7 @@ import java.util.List;
  * Created to Project REPOX User: Edmundo Date: 14-06-2012 Time: 17:05
  */
 public class MetadataSchemaManager {
-    private static final Logger  log = Logger.getLogger(MetadataSchemaManager.class);
+    private static final Logger  log = LogManager.getLogger(MetadataSchemaManager.class);
 
     private List<MetadataSchema> metadataSchemas;
     private File                 metadataSchemasFile;

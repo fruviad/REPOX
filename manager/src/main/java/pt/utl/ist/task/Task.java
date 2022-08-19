@@ -12,6 +12,7 @@ import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlSeeAlso;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Element;
 
@@ -35,7 +36,7 @@ import com.wordnik.swagger.annotations.ApiModelProperty;
 @XmlSeeAlso({ ScheduledTask.class, DataSourceIngestTask.class, DataSourceExportTask.class })
 @ApiModel(value = "A Task", discriminator = "taskType", subTypes = { ScheduledTask.class, DataSourceIngestTask.class, DataSourceExportTask.class })
 public abstract class Task {
-    private static final Logger log = Logger.getLogger(Task.class);
+    private static final Logger log = LogManager.getLogger(Task.class);
 
     /** The possible status of the Task: OK, WARNINGS, ERRORS, CANCELED, FAILED */
     public enum Status {

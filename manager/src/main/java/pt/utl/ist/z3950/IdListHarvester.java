@@ -1,5 +1,6 @@
 package pt.utl.ist.z3950;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jzkit.search.util.RecordModel.InformationFragment;
 import org.jzkit.search.util.ResultSet.IRResultSet;
@@ -21,7 +22,7 @@ import java.util.*;
  * Ids are extracted from a file (1 per line)
  */
 public class IdListHarvester extends AbstractHarvester {
-    private static final Logger log                         = Logger.getLogger(IdListHarvester.class);
+    private static final Logger log                         = LogManager.getLogger(IdListHarvester.class);
     private static final int    stopAfterFailureCount       = 3;                                       //50;
     private static final int    sleepTimeAfterFailureInSecs = 5;                                       //300;
     private static final int    maxSleepsBeforeFailure      = 50;

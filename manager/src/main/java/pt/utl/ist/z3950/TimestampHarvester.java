@@ -1,5 +1,6 @@
 package pt.utl.ist.z3950;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jzkit.search.util.RecordModel.InformationFragment;
 import org.jzkit.search.util.ResultSet.IRResultSet;
@@ -20,7 +21,7 @@ import java.util.*;
  * Z39.50 Harvester by Date/time last modified
  */
 public class TimestampHarvester extends AbstractHarvester {
-    private static final Logger log                          = Logger.getLogger(TimestampHarvester.class);
+    private static final Logger log                          = LogManager.getLogger(TimestampHarvester.class);
 
     //	private String creationDateBibAttribute="1011";
     private String              modificationDateBibAttribute = "1012";

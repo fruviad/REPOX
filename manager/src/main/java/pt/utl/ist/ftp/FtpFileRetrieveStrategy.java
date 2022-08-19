@@ -16,6 +16,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -31,7 +32,7 @@ import com.wordnik.swagger.annotations.ApiModelProperty;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "An FtpFileRetrieveStrategy")
 public class FtpFileRetrieveStrategy implements FileRetrieveStrategy {
-    private static final Logger log       = Logger.getLogger(FtpFileRetrieveStrategy.class);
+    private static final Logger log       = LogManager.getLogger(FtpFileRetrieveStrategy.class);
     public static final String FTPFILERETRIEVESTRATEGY = "FtpFileRetrieveStrategy";
     public static final String OLDCLASS = "pt.utl.ist.repox.ftp.DataSourceFtp";
     

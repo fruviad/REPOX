@@ -2,6 +2,7 @@ package pt.utl.ist.accessPoint.manager;
 
 import com.ibm.icu.text.SimpleDateFormat;
 import org.apache.commons.lang.time.DateFormatUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import pt.utl.ist.accessPoint.AccessPoint;
@@ -35,7 +36,7 @@ import java.util.Date;
  */
 public class SqlAccessPointsManager extends DefaultAccessPointsManager {
 
-    private static final Logger log = Logger.getLogger(SqlAccessPointsManager.class);
+    private static final Logger log = LogManager.getLogger(SqlAccessPointsManager.class);
 
     protected DatabaseAccess databaseAccess;
 

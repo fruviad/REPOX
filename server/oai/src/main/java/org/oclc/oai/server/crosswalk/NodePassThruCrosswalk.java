@@ -31,7 +31,7 @@ import java.util.HashMap;
  * requested.
  */
 public class NodePassThruCrosswalk extends Crosswalk {
-    //     private static Logger logger = Logger.getLogger(NodePassThruCrosswalk.class);
+    //     private static Logger logger = LogManager.getLogger(NodePassThruCrosswalk.class);
     private static Transformer transformer = null;
 
     /**

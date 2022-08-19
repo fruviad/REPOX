@@ -1,5 +1,6 @@
 package pt.utl.ist.z3950;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.marc.CharacterEncoding;
@@ -12,7 +13,7 @@ import java.util.Properties;
  * @author Nuno Freire
  */
 public class Target {
-    private static final Logger log = Logger.getLogger(Target.class);
+    private static final Logger log = LogManager.getLogger(Target.class);
 
     protected String            address;
     protected int               port;

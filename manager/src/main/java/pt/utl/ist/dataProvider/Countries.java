@@ -9,6 +9,7 @@ import java.nio.charset.Charset;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -17,7 +18,7 @@ import pt.utl.ist.configuration.DefaultRepoxContextUtil;
 /**
  */
 public class Countries {
-    private static final Logger        log = Logger.getLogger(Countries.class);
+    private static final Logger        log = LogManager.getLogger(Countries.class);
 
     private static Map<String, String> countryMap;
 

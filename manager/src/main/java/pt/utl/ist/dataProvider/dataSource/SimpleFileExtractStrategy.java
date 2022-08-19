@@ -4,6 +4,7 @@
  */
 package pt.utl.ist.dataProvider.dataSource;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.Element;
@@ -28,7 +29,7 @@ import java.io.FileInputStream;
  */
 public class SimpleFileExtractStrategy implements FileExtractStrategy {
   public static final String OLDCLASS = "SimpleFileExtract";
-    private static final Logger log = Logger.getLogger(SimpleFileExtractStrategy.class);
+    private static final Logger log = LogManager.getLogger(SimpleFileExtractStrategy.class);
 
     @Override
     public void iterateRecords(RecordHandler recordHandler, DataSource dataSource, File file, CharacterEncoding characterEncoding, File logFile) {

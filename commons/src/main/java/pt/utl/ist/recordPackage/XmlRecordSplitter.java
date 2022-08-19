@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.util.stream.Collectors;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -60,9 +61,15 @@ public class XmlRecordSplitter {
             XPath xpath2 = DocumentHelper.createXPath(xpathToRecord);
             xpath2.setNamespaceContext(new SimpleNamespaceContext(map));
 
-            list = xpath2.selectNodes(document);
+            list = xpath2.selectNodes(document)
+                   .stream()
+                   .map(node->(Element)node)
+                   .collect(Collectors.toList());
         } else
-            list = document.selectNodes(xpathToRecord);
+            list = document.selectNodes(xpathToRecord)
+                   .stream()
+                   .map(node->(Element)node)
+                   .collect(Collectors.toList());
 
         int count = 1;
         if (list != null) {

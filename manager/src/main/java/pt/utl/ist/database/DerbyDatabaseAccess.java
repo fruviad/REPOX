@@ -2,6 +2,7 @@ package pt.utl.ist.database;
 
 import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.commons.dbcp.BasicDataSourceFactory;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.accessPoint.AccessPoint;
@@ -18,7 +19,7 @@ import java.util.Properties;
 /**
  */
 public class DerbyDatabaseAccess implements DatabaseAccess {
-    private static final Logger  log = Logger.getLogger(DerbyDatabaseAccess.class);
+    private static final Logger  log = LogManager.getLogger(DerbyDatabaseAccess.class);
 
     protected RepoxConfiguration configuration;
     protected BasicDataSource    repoxDataSource;

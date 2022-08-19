@@ -13,6 +13,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -121,7 +122,7 @@ public class Util {
         return compareString != null && compareString.toLowerCase().contains(searchValue.toLowerCase());
     }
 
-    public static void addLogEntry(String entry, Logger log) {
+    public static void addLogEntry(String entry, LogManager log) {
         System.out.println(entry);
         log.warn(entry);
     }

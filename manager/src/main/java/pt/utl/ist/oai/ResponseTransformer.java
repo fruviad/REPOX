@@ -2,6 +2,7 @@ package pt.utl.ist.oai;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -32,7 +33,7 @@ import java.util.regex.Pattern;
 /**
  */
 public class ResponseTransformer {
-  private static final Logger log = Logger.getLogger(ResponseTransformer.class);
+  private static final Logger log = LogManager.getLogger(ResponseTransformer.class);
   private static final String XSLT_OAI_REQ2RECORDS_FILENAME = "oairesponse2records.xsl";
   private static final String RECORD_ELEMENT_NAME = "record";
 

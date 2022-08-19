@@ -14,7 +14,7 @@
  */
 package pt.utl.ist.oai.server.catalog;
 
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -48,7 +48,7 @@ import java.util.*;
 /**
  */
 public class DataSourceOaiCatalog extends AbstractCatalog {
-  private static final Logger log = Logger.getLogger(DataSourceOaiCatalog.class);
+  private static final Logger log = LogManager.getLogger(DataSourceOaiCatalog.class);
   /**
    * maximum number of entries to return for ListRecords and ListIdentifiers
    */

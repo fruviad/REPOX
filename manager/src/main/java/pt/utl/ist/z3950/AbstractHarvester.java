@@ -1,5 +1,6 @@
 package pt.utl.ist.z3950;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.jzkit.search.provider.iface.IRQuery;
@@ -30,7 +31,7 @@ public abstract class AbstractHarvester implements Harvester {
     /**
      * Logger for this class
      */
-    private static final Logger   log          = Logger.getLogger(AbstractHarvester.class);
+    private static final Logger   log          = LogManager.getLogger(AbstractHarvester.class);
 
     protected ApplicationContext  appContext;
     protected Z3950ServiceFactory factory;

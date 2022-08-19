@@ -1,5 +1,6 @@
 package pt.utl.ist.z3950;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jzkit.search.util.RecordModel.InformationFragment;
 import org.jzkit.search.util.ResultSet.IRResultSet;
@@ -22,7 +23,7 @@ import java.util.NoSuchElementException;
  * maximumId MUST be higher than current server MAX to allow future records with higher control number
  */
 public class IdSequenceHarvester extends AbstractHarvester {
-    private static final Logger log                         = Logger.getLogger(IdSequenceHarvester.class);
+    private static final Logger log                         = LogManager.getLogger(IdSequenceHarvester.class);
     private static final int    stopAfterNotFoundCount      = 5000;
     private static final int    stopAfterFailureCount       = 50;
     private static final int    sleepTimeAfterFailureInSecs = 300;

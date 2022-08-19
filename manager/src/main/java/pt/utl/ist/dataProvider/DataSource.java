@@ -12,6 +12,7 @@ import com.wordnik.swagger.annotations.ApiModelProperty;
 import freemarker.template.TemplateException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.time.DateFormatUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -80,7 +81,7 @@ public abstract class DataSource {
         CREATED, RUNNING, ERROR, OK, WARNING, CANCELED, PRE_PROCESSING, POST_PROCESSING, PRE_PROCESS_ERROR, POST_PROCESS_ERROR
     }
 
-    private static final Logger                   log                        = Logger.getLogger(DataSource.class);
+    private static final Logger                   log                        = LogManager.getLogger(DataSource.class);
 
     /** DataSource MAX_ID_SIZE */
     public static final int                       MAX_ID_SIZE                = 32;

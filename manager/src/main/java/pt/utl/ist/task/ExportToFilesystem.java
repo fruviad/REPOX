@@ -12,6 +12,7 @@ import java.util.Date;
 import javax.xml.transform.TransformerException;
 
 import org.apache.commons.lang.time.DateFormatUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -44,7 +45,7 @@ import pt.utl.ist.util.ZipUtil;
  *
  */
 public class ExportToFilesystem implements RunnableStoppable {
-    private static final Logger log                 = Logger.getLogger(ExportToFilesystem.class);
+    private static final Logger log                 = LogManager.getLogger(ExportToFilesystem.class);
     private static final int    RECORDS_PER_REQUEST = 250;
 
     private String              taskId;

@@ -1,5 +1,6 @@
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.characters.CharacterConverterI;
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class ISOHandler implements MARCHandler {
-    private static final Logger log           = Logger.getLogger(ISOHandler.class);
+    private static final Logger log           = LogManager.getLogger(ISOHandler.class);
 
     CharacterConverterI         charConverter = null;
     protected MarcRecord            rec;

@@ -1,5 +1,6 @@
 package pt.utl.ist.externalServices;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
@@ -8,7 +9,7 @@ import java.util.List;
 /**
  */
 public class ExternalRestService {
-    private static final Logger    log                 = Logger.getLogger(ExternalRestService.class);
+    private static final Logger    log                 = LogManager.getLogger(ExternalRestService.class);
 
     private String                 id;
     private String                 name;

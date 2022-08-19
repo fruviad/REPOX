@@ -1,5 +1,6 @@
 package pt.utl.ist.reports;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -26,7 +27,7 @@ import java.util.*;
  * Time: 18:53
  */
 public class LogUtil {
-    private static Logger              log         = Logger.getLogger(LogUtil.class);
+    private static Logger              log         = LogManager.getLogger(LogUtil.class);
 
     /** LogUtil DATE_FORMAT */
     public static String               DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";

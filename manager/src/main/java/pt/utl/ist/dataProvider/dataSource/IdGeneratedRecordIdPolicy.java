@@ -1,5 +1,6 @@
 package pt.utl.ist.dataProvider.dataSource;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Element;
 
@@ -18,7 +19,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "An IdGeneratedRecordIdPolicy")
 public class IdGeneratedRecordIdPolicy implements RecordIdPolicy {
-    private static final Logger log = Logger.getLogger(IdGeneratedRecordIdPolicy.class);
+    private static final Logger log = LogManager.getLogger(IdGeneratedRecordIdPolicy.class);
     public static final String IDGENERATED = "IdGenerated";
 
     /**

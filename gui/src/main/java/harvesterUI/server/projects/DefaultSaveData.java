@@ -15,6 +15,7 @@ import harvesterUI.shared.externalServices.ExternalServiceUI;
 import harvesterUI.shared.externalServices.ServiceParameterUI;
 import harvesterUI.shared.mdr.TransformationUI;
 import harvesterUI.shared.servletResponseStates.ResponseState;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import pt.utl.ist.configuration.ConfigSingleton;
@@ -50,7 +51,7 @@ import java.util.*;
  * Created to REPOX. User: Edmundo Date: 04-07-2011 Time: 13:35
  */
 public class DefaultSaveData {
-  private static final Logger log = Logger.getLogger(DefaultSaveData.class);
+  private static final Logger log = LogManager.getLogger(DefaultSaveData.class);
 
   public static String deleteDataProviders(List<DataProviderUI> dataProviderUIs) {
     for (DataProviderUI dataProvider : dataProviderUIs) {

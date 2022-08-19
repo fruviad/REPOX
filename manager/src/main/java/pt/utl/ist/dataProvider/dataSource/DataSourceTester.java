@@ -1,5 +1,6 @@
 package pt.utl.ist.dataProvider.dataSource;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.dataProvider.DataSource;
@@ -7,7 +8,7 @@ import pt.utl.ist.dataProvider.DataSource;
 /**
  */
 public class DataSourceTester implements Runnable {
-    private static final Logger log = Logger.getLogger(DataSourceTester.class);
+    private static final Logger log = LogManager.getLogger(DataSourceTester.class);
 
     private DataSource          dataSource;
     private boolean             working;

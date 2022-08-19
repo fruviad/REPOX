@@ -1,5 +1,6 @@
 package pt.utl.ist.statistics;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -26,7 +27,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  */
 public class RecordCountManager implements Runnable {
-  private static final Logger log = Logger.getLogger(RecordCountManager.class);
+  private static final Logger log = LogManager.getLogger(RecordCountManager.class);
   private static final int CYCLE_TIME = 60 * 5; // 1 minute
   private static final int MAX_WAIT_TIME_CHANGES = 60 * 5; // 5 minutes
   private static final int MAX_WAIT_TIME_NO_CHANGES = 60 * 60; // 60 minutes

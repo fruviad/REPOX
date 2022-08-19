@@ -1,5 +1,6 @@
 package pt.utl.ist.externalServices;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -20,7 +21,7 @@ import java.util.List;
  * Created to REPOX. User: Edmundo Date: 12-12-2011 Time: 14:18
  */
 public class ExternalRestServicesManager {
-    private static final Logger       log = Logger.getLogger(ExternalRestServicesManager.class);
+    private static final Logger       log = LogManager.getLogger(ExternalRestServicesManager.class);
 
     // Map of sourceMetadataFormat to list of available ExternalRestServices for that source
     private List<ExternalRestService> externalRestServices;

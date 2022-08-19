@@ -34,6 +34,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 //import org.apache.xml.serialize.OutputFormat;
 //import org.apache.xml.serialize.XMLSerializer;
@@ -57,7 +58,7 @@ import pt.utl.ist.util.XmlUtil;
  * @author Nuno Freire
  */
 public abstract class HarvesterVerb {
-    private static Logger                    logger                                     = Logger.getLogger(HarvesterVerb.class);
+    private static Logger                    logger                                     = LogManager.getLogger(HarvesterVerb.class);
 
     /* Gilberto */
     /** HarvesterVerb NAMESPACE_V2_0 */

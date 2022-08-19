@@ -6,7 +6,9 @@
 
 package pt.utl.ist.util;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -24,7 +26,7 @@ import java.util.Map;
  * @author Nuno Freire
  */
 public class Dom4jUtil {
-    private static Logger log = Logger.getLogger(Dom4jUtil.class);
+    private static Logger log = LogManager.getLogger(Dom4jUtil.class);
 
     /** Transforms a DOM into a String
     * @deprecated 

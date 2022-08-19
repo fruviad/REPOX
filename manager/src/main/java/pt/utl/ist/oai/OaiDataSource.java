@@ -3,6 +3,7 @@ package pt.utl.ist.oai;
 import com.wordnik.swagger.annotations.ApiModel;
 import com.wordnik.swagger.annotations.ApiModelProperty;
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -42,7 +43,7 @@ import java.util.*;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "An OaiDatasource")
 public class OaiDataSource extends DataSource{
-    private static final Logger  log = Logger.getLogger(OaiDataSource.class);
+    private static final Logger  log = LogManager.getLogger(OaiDataSource.class);
 
     @XmlElement
     @ApiModelProperty(required = true)

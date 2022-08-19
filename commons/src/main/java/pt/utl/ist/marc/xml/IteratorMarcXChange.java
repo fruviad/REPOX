@@ -4,7 +4,9 @@
  */
 package pt.utl.ist.marc.xml;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.xml.sax.SAXException;
 
 import pt.utl.ist.marc.MarcRecord;
@@ -22,7 +24,7 @@ public class IteratorMarcXChange extends MarcSaxParserClient implements Iterator
     /**
      * Logger for this class
      */
-    private static final Logger log                               = Logger.getLogger(IteratorMarcXChange.class);
+    private static final Logger log                               = LogManager.getLogger(IteratorMarcXChange.class);
 
     File                        xmlFile;
     FileInputStream             xmlFis;

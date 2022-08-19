@@ -1,5 +1,6 @@
 package pt.utl.ist.dataProvider.dataSource;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
@@ -20,7 +21,7 @@ import java.util.List;
  * Created to REPOX. User: Edmundo Date: 12-12-2011 Time: 14:18
  */
 public class TagsManager {
-    private static final Logger log = Logger.getLogger(TagsManager.class);
+    private static final Logger log = LogManager.getLogger(TagsManager.class);
 
     private List<DataSourceTag> tags;
     private File                configurationFile;

@@ -1,5 +1,6 @@
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.marc.MarcRecord;
@@ -13,7 +14,7 @@ public class MARCPartialReaderUkraine extends MARCPartialReader {
     /**
      * Logger for this class
      */
-    private static final Logger log = Logger.getLogger(MARCPartialReaderUkraine.class);
+    private static final Logger log = LogManager.getLogger(MARCPartialReaderUkraine.class);
 
     /**
      * Creates a new instance of this class.

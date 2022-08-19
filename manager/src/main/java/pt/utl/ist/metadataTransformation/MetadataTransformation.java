@@ -1,5 +1,6 @@
 package pt.utl.ist.metadataTransformation;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -32,7 +33,7 @@ import java.io.File;
 @XmlAccessorType(XmlAccessType.NONE)
 @ApiModel(value = "A MetadataTransformation")
 public class MetadataTransformation {
-    private static final Logger log             = Logger.getLogger(MetadataTransformation.class);
+    private static final Logger log             = LogManager.getLogger(MetadataTransformation.class);
 
     @XmlElement(required = true)
     @ApiModelProperty

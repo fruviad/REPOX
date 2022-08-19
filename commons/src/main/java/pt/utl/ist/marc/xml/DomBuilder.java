@@ -6,6 +6,7 @@
 
 package pt.utl.ist.marc.xml;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,7 +27,7 @@ import java.util.List;
  * @author Nuno Freire
  */
 public class DomBuilder {
-    private static Logger log = Logger.getLogger(DomBuilder.class);
+    private static Logger log = LogManager.getLogger(DomBuilder.class);
 
     /** Creates a new instance of DOMBuilder */
     public DomBuilder() {

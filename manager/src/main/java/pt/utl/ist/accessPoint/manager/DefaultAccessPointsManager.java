@@ -1,5 +1,6 @@
 package pt.utl.ist.accessPoint.manager;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 
@@ -25,7 +26,7 @@ import java.util.List;
  * @author Nuno Freire
  */
 public abstract class DefaultAccessPointsManager implements AccessPointsManager {
-    private static final Logger log = Logger.getLogger(DefaultAccessPointsManager.class);
+    private static final Logger log = LogManager.getLogger(DefaultAccessPointsManager.class);
 
     @Override
     public void processRecord(DataSource dataSource, RecordRepox record, File logFile) throws IOException, SQLException {

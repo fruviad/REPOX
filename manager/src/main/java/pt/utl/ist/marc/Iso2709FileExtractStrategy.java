@@ -4,6 +4,7 @@
  */
 package pt.utl.ist.marc;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.characters.RecordCharactersConverter;
@@ -30,7 +31,7 @@ public class Iso2709FileExtractStrategy implements FileExtractStrategy {
   public static final String OLDCLASS = "Iso2709FileExtract";
     //	MetadataFormat.ISO2709;
 
-    private static final Logger log = Logger.getLogger(Iso2709FileExtractStrategy.class);
+    private static final Logger log = LogManager.getLogger(Iso2709FileExtractStrategy.class);
 
     private String              isoImplementationClass;
 

@@ -4,6 +4,7 @@
  */
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.marc.iso2709.BatchInfo.CharSet;
@@ -19,7 +20,7 @@ public class Iso2709TypeDetector {
     /**
      * Logger for this class
      */
-    private static final Logger log = Logger.getLogger(Iso2709TypeDetector.class);
+    private static final Logger log = LogManager.getLogger(Iso2709TypeDetector.class);
 
     /**
      * @param isoFilePath

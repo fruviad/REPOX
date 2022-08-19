@@ -1,6 +1,7 @@
 package pt.utl.ist.dataProvider;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
@@ -44,7 +45,7 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 public class DefaultDataManager implements DataManager {
-  private static final Logger log = Logger.getLogger(DefaultDataManager.class);
+  private static final Logger log = LogManager.getLogger(DefaultDataManager.class);
   private static final String ID_REGULAR_EXPRESSION = "[a-zA-Z_0-9]*";
   protected static final int ID_MAX_SIZE = 40;
 

@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
  * @author  Nuno Freire
  */
 public class RemovePontuationVisitor {
-    private static org.apache.logging.log4j.Logger log = org.apache.logging.log4j.Logger.getLogger( RemovePontuationVisitor.class);
+    private static org.apache.logging.log4j.Logger log = org.apache.logging.log4j.LogManager.getLogger( RemovePontuationVisitor.class);
     
     private static Pattern bicosPattern=Pattern.compile("^\\s*<([^>]+)>");
 

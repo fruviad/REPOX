@@ -36,7 +36,7 @@ import harvesterUI.shared.dataTypes.dataSet.DataSourceUI;
 import harvesterUI.shared.users.UserRole;
 import pt.utl.ist.util.shared.ProjectType;
 
-import java.util.logging.Logger;
+import java.util.logging.LogManager;
 
 //import com.extjs.gxt.ui.client.util.Theme;
 
@@ -47,7 +47,7 @@ import java.util.logging.Logger;
 @SuppressWarnings("deprecation")
 public class HarvesterUI implements EntryPoint,HistoryListener {
 
-    private static final Logger log = Logger.getLogger(HarvesterUI.class.getName());
+    private static final Logger log = LogManager.getLogger(HarvesterUI.class.getName());
 
     public static final String REPOX_SERVICE = "repoxservice";
     public static final String ES_MANAGEMENT_SERVICE = "serviceManagementService";

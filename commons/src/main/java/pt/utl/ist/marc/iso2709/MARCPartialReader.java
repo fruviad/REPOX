@@ -1,5 +1,6 @@
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.util.exceptions.marc.iso2709.IllegalIdentifierException;
@@ -64,7 +65,7 @@ public class MARCPartialReader extends MARCReader {
     /**
      * Logger for this class
      */
-    private static final Logger log             = Logger.getLogger(MARCPartialReader.class);
+    private static final Logger log             = LogManager.getLogger(MARCPartialReader.class);
 
     /** MARCPartialReader numberOfRecords */
     protected long              numberOfRecords = 0;

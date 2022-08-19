@@ -18,6 +18,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
 
 import org.apache.commons.io.FilenameUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -37,7 +38,7 @@ import pt.utl.ist.util.exceptions.SameStylesheetTransformationException;
 /**
  */
 public class MetadataTransformationManager {
-    private static final Logger                       log                  = Logger.getLogger(MetadataTransformationManager.class);
+    private static final Logger                       log                  = LogManager.getLogger(MetadataTransformationManager.class);
 
     // Map of sourceMetadataFormat to list of available MetadataTransformations for that source
     private Map<String, List<MetadataTransformation>> metadataTransformations;

@@ -4,7 +4,9 @@ import freemarker.template.Configuration;
 import freemarker.template.DefaultObjectWrapper;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailPreparationException;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -35,7 +37,7 @@ import java.util.Map;
 public class EmailSender {
     private static final String TEMPLATE_NAME_AFFIX_TEXT = ".txt.ftl";
     private static final String TEMPLATE_NAME_AFFIX_HTML = ".html.ftl";
-    private Logger              log                      = Logger.getLogger(getClass());
+    private Logger              log                      = LogManager.getLogger(getClass());
     private JavaMailSender      mailSender;
     private String              template;
 

@@ -6,6 +6,7 @@
 
 package pt.utl.ist.marc.iso2709;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.characters.CharacterConverterI;
@@ -20,7 +21,7 @@ import java.util.List;
  * @author  Nuno Freire
  */
 public class IsoNavigator {
-	private static final Logger log = Logger.getLogger(IsoNavigator.class);
+	private static final Logger log = LogManager.getLogger(IsoNavigator.class);
 
     private ISOHandler handler;
     private MARCPartialReader marcReader;

@@ -5,6 +5,7 @@ import org.apache.commons.compress.archivers.ArchiveStreamFactory;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
 import org.apache.commons.io.IOUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
@@ -20,7 +21,7 @@ import java.util.zip.GZIPInputStream;
  * To change this template use File | Settings | File Templates.
  */
 public class TarGz {
-    private static final Logger log = Logger.getLogger(TarGz.class);
+    private static final Logger log = LogManager.getLogger(TarGz.class);
 
     /** Untar an input file into an output file.
 

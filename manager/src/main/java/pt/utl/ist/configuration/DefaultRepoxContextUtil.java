@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.text.ParseException;
 
 import org.apache.commons.configuration.PropertiesConfigurationLayout;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.DocumentException;
 
@@ -16,7 +17,7 @@ import pt.utl.ist.util.exceptions.task.IllegalFileFormatException;
  * File | Settings | File Templates.
  */
 public class DefaultRepoxContextUtil implements RepoxContextUtil {
-  private static final Logger log = Logger.getLogger(DefaultRepoxContextUtil.class);
+  private static final Logger log = LogManager.getLogger(DefaultRepoxContextUtil.class);
   public static final String COUNTRIES_FILENAME = "countries.txt";
   public static final String DATA_PROVIDERS_FILENAME = "dataProviders.xml";
   public static final String OLD_TASKS_FILENAME = "oldTasks.xml";

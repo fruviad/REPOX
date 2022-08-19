@@ -1,5 +1,6 @@
 package pt.utl.ist.database;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import pt.utl.ist.accessPoint.AccessPoint;
@@ -17,7 +18,7 @@ import java.util.Properties;
 /**
  */
 public class MysqlDatabaseAccess implements DatabaseAccess {
-  private static final Logger log = Logger.getLogger(MysqlDatabaseAccess.class);
+  private static final Logger log = LogManager.getLogger(MysqlDatabaseAccess.class);
 
   protected RepoxConfiguration configuration;
   protected String dbUrl;
