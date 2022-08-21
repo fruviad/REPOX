@@ -340,7 +340,7 @@
 
 		<!-- Testing Libs -->
 		<dependency>
-			<groupId>org.junit</groupId>
+			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<!-- This is a previous verrion <version>4.11</version> -->
 		</dependency>

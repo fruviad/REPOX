@@ -165,7 +165,7 @@
 			<artifactId>xercesImpl</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.junit</groupId>
+			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>

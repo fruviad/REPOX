@@ -125,7 +125,7 @@
 		</dependency>
 -->
 		<dependency>
-			<groupId>org.junit</groupId>
+			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -241,7 +241,7 @@
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>marc4j</groupId>
+			<groupId>org.marc4j</groupId>
 			<artifactId>marc4j</artifactId>
 		</dependency>
 		<dependency>
