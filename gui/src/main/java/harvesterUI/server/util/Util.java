@@ -122,7 +122,7 @@ public class Util {
         return compareString != null && compareString.toLowerCase().contains(searchValue.toLowerCase());
     }
 
-    public static void addLogEntry(String entry, LogManager log) {
+    public static void addLogEntry(String entry, Logger log) {
         System.out.println(entry);
         log.warn(entry);
     }

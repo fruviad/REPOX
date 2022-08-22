@@ -1,13 +1,13 @@
 /* RootResource.java - created on Oct 15, 2014, Copyright (c) 2011 The European Library, all rights reserved */
 package org.theeuropeanlibrary.repox.rest.servlets;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.OPTIONS;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.UriInfo;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.OPTIONS;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.Context;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.UriInfo;
 
 import org.theeuropeanlibrary.repox.rest.pathOptions.RootOptionListContainer;
 

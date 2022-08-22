@@ -394,5 +394,22 @@
 			<groupId>pt.ist</groupId>
 			<artifactId>xslt-om</artifactId>
 		</dependency>
+
+                <dependency>
+                        <groupId>jakarta.servlet</groupId>
+                        <artifactId>jakarta.servlet-api</artifactId>
+                        <version>6.0.0</version>
+                        <scope>provided</scope>
+                </dependency>
+
+<!-- https://mvnrepository.com/artifact/jakarta.xml.soap/jakarta.xml.soap-api -->
+<dependency>
+    <groupId>jakarta.xml.soap</groupId>
+    <artifactId>jakarta.xml.soap-api</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+
+
 	</dependencies>
 </project>

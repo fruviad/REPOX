@@ -36,7 +36,11 @@ import harvesterUI.shared.dataTypes.dataSet.DataSourceUI;
 import harvesterUI.shared.users.UserRole;
 import pt.utl.ist.util.shared.ProjectType;
 
-import java.util.logging.LogManager;
+//import java.util.logging.LogManager;
+//import java.util.logging.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 
 //import com.extjs.gxt.ui.client.util.Theme;
 

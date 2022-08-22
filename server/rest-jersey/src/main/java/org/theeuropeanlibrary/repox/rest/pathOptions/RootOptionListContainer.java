@@ -5,8 +5,8 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.ws.rs.Path;
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.ws.rs.Path;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
 /**
  * Rest options.

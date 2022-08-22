@@ -6,7 +6,8 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FileUtils;
-import org.apache.logging.log4j.LogManagger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import pt.utl.ist.configuration.ConfigSingleton;
 
@@ -49,6 +50,9 @@ public class DataProvidersImportUploadServlet extends HttpServlet {
 
                 FileUtils.forceDelete(tempFile);
                 Util.addLogEntry("Data Providers imported successfully import",logger);
+                // pdk: following was temp. workaround until I modified gui/src/main/java/harvesterUI/server/util/Util.java to pass Logger;
+                //      my blanket-update had changed it to LogManager...
+                //logger.debug("Data Providers imported successfully import");
             }
         }
         catch(Exception e){
