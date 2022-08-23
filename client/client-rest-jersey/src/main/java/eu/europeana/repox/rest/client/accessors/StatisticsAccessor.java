@@ -16,18 +16,18 @@ package eu.europeana.repox.rest.client.accessors;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.ws.rs.InternalServerErrorException;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.InternalServerErrorException;
+import jakarta.ws.rs.client.Client;
+import jakarta.ws.rs.client.WebTarget;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
 
 import org.glassfish.jersey.client.JerseyClientBuilder;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
 //import org.slf4j.LogManager;
 //import org.slf4j.LoggerFactory;
 import org.apache.logging.log4j.LogManager;
-
+import org.apache.logging.log4j.Logger;
 
 import org.theeuropeanlibrary.repox.rest.pathOptions.Result;
 import org.theeuropeanlibrary.repox.rest.pathOptions.StatisticsOptionListContainer;
