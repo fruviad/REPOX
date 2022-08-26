@@ -262,7 +262,7 @@
 
 		<!--GWT Core Libs -->
 		<dependency>
-			<groupId>com.google.gwt</groupId>
+			<groupId>org.gwtproject</groupId>
 			<artifactId>gwt-user</artifactId>
 			<exclusions>
 				<exclusion>
@@ -273,7 +273,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.google.gwt</groupId>
+			<groupId>org.gwtproject</groupId>
 			<artifactId>gwt-servlet</artifactId>
 			<scope>compile</scope>
 		</dependency>
