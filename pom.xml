@@ -97,8 +97,8 @@
 		<org.mindrot.jbcrypt.version>0.4</org.mindrot.jbcrypt.version>
 		<rome.rome.version>1.0</rome.rome.version>
 
-		<com.google.gwt.gwt-user.version>2.10.0</com.google.gwt.gwt-user.version>
-		<com.google.gwt.gwt-servlet.version>2.9.0</com.google.gwt.gwt-servlet.version>
+		<org.gwtproject.gwt-user.version>2.10.0</org.gwtproject.gwt-user.version>
+		<org.gwtproject.gwt-servlet.version>2.10.0</org.gwtproject.gwt-servlet.version>
 		<com.novell.ldap.jldap.version>2009-10-07</com.novell.ldap.jldap.version>
 		<com.bradrydzewski.gwt-cal.version>0.9.3.1</com.bradrydzewski.gwt-cal.version>
 		<com.allen-sauer.gwt.dnd.gwt-dnd.version>3.3.4</com.allen-sauer.gwt.dnd.gwt-dnd.version>
@@ -759,14 +759,14 @@
 
 			<!--GWT Core Libs -->
 			<dependency>
-				<groupId>com.google.gwt</groupId>
+				<groupId>org.gwtproject</groupId>
 				<artifactId>gwt-user</artifactId>
-				<version>${com.google.gwt.gwt-user.version}</version>
+				<version>${org.gwtproject.gwt-user.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.google.gwt</groupId>
+				<groupId>org.gwtproject</groupId>
 				<artifactId>gwt-servlet</artifactId>
-				<version>${com.google.gwt.gwt-servlet.version}</version>
+				<version>${org.gwtproject.gwt-servlet.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>javax.servlet</groupId>
