@@ -149,7 +149,7 @@
 		<org.springframework.spring-context.version>5.3.22</org.springframework.spring-context.version>
 		<org.springframework.spring-jdbc.version>5.3.22</org.springframework.spring-jdbc.version>
 		<org.springframework.spring-web.version>5.3.22</org.springframework.spring-web.version>
-		<org.springframework.spring-webmvc.version>5.3.22</org.springframework.spring-webmvc.version>
+		<org.springframework.spring-webmvc.version>5.3.23</org.springframework.spring-webmvc.version>
 		<org.springframework.spring-context-support.version>5.3.22</org.springframework.spring-context-support.version>
 		<org.springframework.spring-orm.version>5.3.22</org.springframework.spring-orm.version>
 		<org.springframework.security.spring-security-acl.version>5.7.3</org.springframework.security.spring-security-acl.version>
