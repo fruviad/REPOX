@@ -160,7 +160,7 @@
 		<org.springframework.spring-test.version>5.3.22</org.springframework.spring-test.version>
 		<org.springmodules.spring-modules-validation.version>0.8a</org.springmodules.spring-modules-validation.version>
 
-		<org.hibernate.hibernate-entitymanager.version>5.6.10.Final</org.hibernate.hibernate-entitymanager.version>
+		<org.hibernate.hibernate-entitymanager.version>5.6.13.Final</org.hibernate.hibernate-entitymanager.version>
 		<org.hibernate.hibernate-annotations.version>3.5.6-Final</org.hibernate.hibernate-annotations.version>
 		<org.hibernate.hibernate-validator.version>7.0.5.Final</org.hibernate.hibernate-validator.version>
 		<org.hibernate.hibernate-core.version>5.6.10.Final</org.hibernate.hibernate-core.version>
